@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Position Relative</title>
+    <title>Inline Example</title>
 </head>
 <style>
     /*
@@ -16,11 +16,10 @@
     Class selector = .inlineBlock
     Type selector =     div
     Selector list =     inlineBlock, div
-    Descendant combinator = .exampleBox
+    Descendant combinator = .inlineBlock div
     */
 
-    .Block,
-     .block div {
+    .inlineBlock, div {
         display: inline-block;
     }
 
@@ -29,33 +28,31 @@
         margin-top: 10px;
         background-color: white;
         /******     Change width to 410px for inline example  ******/
-        width: 210px;
+        width: 410px;
         height: 205px;
         border: 3px dashed red;
     }
 
     /****** Child divs ******/
-    .exampleBox  {
-        background-color:lightcoral
+    .inlineBlock div {
         width: 100px;
         height: 100px;
-        position: relative;
-        top:-102px;
-        left: -101px;
+        border: 1px solid #000;
+        background-color: aqua;
     }
 
 
 </style>
 <body>
 
-<h2>Position Relative</h2>
+<h2>Inline-block</h2>
 
 <p>Inline-block allows other boxes to sit right next to them. <br>
     If the box with this display property does not fit in the
     space available, it will break to a new line.</p>
 
 
-
+<div class="inlineBlock">
     <div>Child Div 1</div>
 <!--    Uncomment the child divs two and three -->
     <div>Child Div 2</div>

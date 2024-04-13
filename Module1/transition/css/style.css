@@ -1,0 +1,278 @@
+body {
+    display: flex;
+}
+
+h1 {
+    font-size: 64px
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-property: background-color;
+    transition-duration: 2s;
+ }
+ #box1:hover {
+    background-color: lightskyblue;
+ }
+ 
+
+
+ #box2 {
+    width: 300px;
+    height: 200px;
+    font-size: 30px;
+    background-color: yellow;
+    transition-property: font-size;
+    transition-duration: 2s;
+ }
+ #box2:hover {
+    font-size: 100px;
+ }
+
+
+
+ #box3 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    transition-property: width, height;
+    transition-duration: 2s;
+ }
+ #box3:hover {
+    width: 200px;
+    height: 200px;
+ }
+ 
+ 
+
+ #box4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-duration: 0.6s;
+ }
+ #box4:hover {
+    transform: translateX(200px);
+ }
+
+
+
+ #box5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-duration: 3s;
+ }
+ #box5:hover {
+    transform: rotate(360deg);
+ }
+
+
+ #box6 {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    transition-duration: 3s;
+ }
+ #box6:hover {
+    transform: scale(1.5);
+ }
+ 
+ 
+
+ /* @media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  @media only screen and (orientation: portrait) {
+    body {
+      background-color: pink;
+    }
+  } */
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: yellow;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 18px
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        background: red;
+    }
+    #box1 {
+        width: 200px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        background: hotpink;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        background: royalblue;
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+      background: green;
+  }
+}
+
+    display: flex;
+}
+
+h1 {
+    font-size: 64px
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-property: background-color;
+    transition-duration: 2s;
+ }
+ #box1:hover {
+    background-color: lightskyblue;
+ }
+ 
+
+
+ #box2 {
+    width: 300px;
+    height: 200px;
+    font-size: 30px;
+    background-color: yellow;
+    transition-property: font-size;
+    transition-duration: 2s;
+ }
+ #box2:hover {
+    font-size: 100px;
+ }
+
+
+
+ #box3 {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    transition-property: width, height;
+    transition-duration: 2s;
+ }
+ #box3:hover {
+    width: 200px;
+    height: 200px;
+ }
+ 
+ 
+
+ #box4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-duration: 0.6s;
+ }
+ #box4:hover {
+    transform: translateX(200px);
+ }
+
+
+
+ #box5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-duration: 3s;
+ }
+ #box5:hover {
+    transform: rotate(360deg);
+ }
+
+
+ #box6 {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    transition-duration: 3s;
+ }
+ #box6:hover {
+    transform: scale(1.5);
+ }
+ 
+ 
+
+ /* @media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  @media only screen and (orientation: portrait) {
+    body {
+      background-color: pink;
+    }
+  } */
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: yellow;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 18px
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        background: red;
+    }
+    #box1 {
+        width: 200px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        background: hotpink;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        background: royalblue;
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+      background: green;
+  }
+}
+
+  

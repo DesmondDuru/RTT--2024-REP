@@ -9,24 +9,92 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
       rel="stylesheet"
     /> -->
-    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
 
   <body>
     <h1>Hello World!</h1>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quisquam quod numquam possimus, nulla ex exercitationem pariatur optio consectetur autem temporibus voluptatum dolor facere praesentium quis commodi ea voluptatibus. Quasi?</p>
-
-
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+      quisquam quod numquam possimus, nulla ex exercitationem pariatur optio
+      consectetur autem temporibus voluptatum dolor facere praesentium quis
+      commodi ea voluptatibus. Quasi?
+    </p>
 
     <div>
-        <h2>Hello</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ex ad illo qui dolores minima, explicabo recusandae eos earum repellendus magnam suscipit laboriosam harum temporibus alias aspernatur dicta consequuntur? Harum, quas adipisci iste enim rerum similique architecto. Iure sapiente eum sed nam molestias officiis ducimus, tempora, laboriosam consequuntur culpa nostrum at odit. <span>Consequuntur</span> facilis possimus et dolorum nostrum odio distinctio repellendus iure aperiam rem magnam sunt provident, quis ut odit dolorem laboriosam incidunt beatae quo libero iusto? Dolores odit nam nisi optio quam reiciendis esse repellendus earum aliquid quibusdam libero, officia sed perferendis. Labore deleniti expedita incidunt. Nesciunt, laboriosam natus!
-
-        </p>
+      <h2>Hello</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ex ad
+        illo qui dolores minima, explicabo recusandae eos earum repellendus
+        magnam suscipit laboriosam harum temporibus alias aspernatur dicta
+        consequuntur? Harum, quas adipisci iste enim rerum similique architecto.
+        Iure sapiente eum sed nam molestias officiis ducimus, tempora,
+        laboriosam consequuntur culpa nostrum at odit.
+        <span>Consequuntur</span> facilis possimus et dolorum nostrum odio
+        distinctio repellendus iure aperiam rem magnam sunt provident, quis ut
+        odit dolorem laboriosam incidunt beatae quo libero iusto? Dolores odit
+        nam nisi optio quam reiciendis esse repellendus earum aliquid quibusdam
+        libero, officia sed perferendis. Labore deleniti expedita incidunt.
+        Nesciunt, laboriosam natus!
+      </p>
     </div>
 
+    <!-- LOGIN FORM WITH A LOGIN ID  -->
+    <form id="login">
+      <img src="./icons8-user-50.png" alt="" />
+      <h2>Login</h2>
+
+      <div>
+        <label for="username"></label>
+        <input type="text" id="username" placeholder="Username" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="password"></label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+      <br />
+
+      <input type="submit" value="Login" />
+      <br />
+      <small>Forgot password</small>
+    </form>
+
+    <hr />
+
+    <!-- GET IN TOUCH FORM WITH GETINTOUCH ID  -->
+    <form id="getintouch">  
+      <div>
+        <img src="./icons8-close-30.png">
+        <h2>Get in touch</h2>
+      <small>Good choice!</small>
+      </div>
+
+      <div>
+        <label for="fullname"></label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your name please">
+      </div>
+      <div>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="A contact email">
+      </div>
+      <div>
+        <label for="message"></label>
+        <textarea type="text" id="message" name="message" placeholder="How can we help you?"></textarea>
+      </div>
+
+      <input type="submit" value="Send Message" />
+    </form>
 
 
   </body>

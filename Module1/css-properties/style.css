@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+h1 {
+  /* display: none; */
+  font: 48px "Bungee Spice";
+}
+
+p {
+  /* background-color: rgba(9, 55, 21, .33); */
+  /* background-color: #FF71CD; */
+  padding: 10px;
+  /* -webkit-box-shadow: 18px -5px 22px 22px rgba(0,0,0,0.81);  */
+  box-shadow: 18px -5px 22px 22px rgba(0, 0, 0, 0.81);
+}
+
+div > h2 {
+  float: left;
+  margin-right: 10px;
+  font-size: 32px;
+}
+
+
+
+/* LOGIN AND GET IN TOUCH FORMS */
+
+span {
+  float: right;
+  font-size: 48px;
+}
+
+form#login {
+    background: gray;
+    margin-top: 50px;
+    height: 400px;
+}
+
+form#login img {
+    position: relative;
+    top: -25px;
+    left: 48%;
+}
+
+form#login > h2 {
+    text-align: center
+}
+form#login div {
+    text-align: center
+}
+
+small {
+    margin-left: 45%;
+}
+
+/* CSS Attribute Selectors */
+/* https://www.w3schools.com/css/css_attribute_selectors.asp */
+input[type="submit"] {
+    margin-left: 48%
+}
+
+form#getintouch {
+    background: red;
+}

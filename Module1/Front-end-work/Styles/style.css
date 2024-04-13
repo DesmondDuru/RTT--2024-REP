@@ -1,61 +1,81 @@
 body {
-    /* background-color: red; */
+   /* background-color: red; */
 }
 
 a {
-    /* background-color: #824D74; */
-    color: white;
-    font-size: 24px
+   color: white;
+   font-size: 24px
 }
 
-a:hover {
-      font-size: 32px;
-      color: yellow;
+a:active {
+   font-size: 32px;
+   color: yellow;
 }
-/* NAV BAR; */
-nav {
-    /*
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #b2a6c3;
-    padding: 30px;
-    margin: 20px;
-}
+
 main {
    /* background-color: purple; */
 }
 
 
-/* Descendent ( )*/
-/*section p {
-    color: hotpink;
- }*/
+/* This is a comment */
 
- /* Child Combinator */
- /*section > p {
-    color: hotpink;
- }*/
+
+/* NAV BAR  */
+nav {
+
+}
+
+/* Desendent ( ) */
+/* section p {
+   color: hotpink;
+} */
+
+/* Child Combinator  */
+/* section > p {
+   color: hotpink;
+} */
+
 /* Adjacent */
- /*h2 + p {
-    color: hotpink;
- } */
+/* h2 + p {
+   color: hotpink;
+} */
 
- h2 -p {
-    color: hotpink;
- }
- 
+/* h2 ~ p {
+   color: hotpink;
+} */
 
- .my_items {
-    background-color: royalblue;
-    padding: 15px;
- }
 
- li:nth-child(){
-    color: red;
- }
+.my_items {
+   /* background-color: royalblue; */
+   padding: 15px;
+}
 
- #bio {
-    background-color: hotpink;
-    padding 20px;
- }
+li:nth-child(4) {
+   color: red;
+}
+
+#bio {
+   background-color: hotpink;
+   padding: 20px;
+}
+
+#bio::first-line {
+   color: green;
+}
+
+#classes::first-letter {
+   color: blue;
+}
+
+li {
+  list-style: none;
+}
+
+/* li::before {
+  content: '🎮 ';
+} */
+
+li::before {
+  content: url('../images/icons8-check-16.png');
+  margin-right: 5px;
+}
