@@ -1,0 +1,15 @@
+
+
+#heading-1 {
+    background: royalblue;
+    padding: 5px;
+}
+
+.navbar {
+    background: hotpink;
+    padding: 20px;
+}
+
+/* a:visited {
+    color: pink
+} */

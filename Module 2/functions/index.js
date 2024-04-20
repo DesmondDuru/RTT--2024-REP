@@ -1,4 +1,3 @@
-
 sayHello();
 // greeting(); // error!
 // sayItBack(); // error
@@ -75,14 +74,16 @@ console.log(devObj);
 console.log(devObj1);
 
 
-// ===== Defalt Parameters
+// ======== Default Parameters
 
-// function setColor(bicycle, Color) {
-//     // set color to 'purple' if not provided
-//     bicycle.color = color || 'purple';
+// function setColor(bicycle, color) {
+//     console.log(color);
+// 	// set color to 'purple' if not provided
+// 	bicycle.color = color || 'purple';
 // }
 
-function setColor(bicycle, wheels, size, color = 'yellow') {
+
+function setColor(bicycle, wheels, size, color = 'Yellow') {
     console.log(color);
     bicycle.color = color;
     bicycle.wheels = wheels;
@@ -90,7 +91,6 @@ function setColor(bicycle, wheels, size, color = 'yellow') {
 }
 
 const bikeObj = {};
-
 setColor(bikeObj, 2, '20 inches');
 console.log(bikeObj);
 
@@ -115,6 +115,10 @@ colors.forEach(function(color, index, arr) {
 // Arrow function
 colors.forEach((color) => console.log(color));
 
+
+
+
+//
 const user = {};
 
 function createUser(userObj, name, age, role) {
@@ -128,3 +132,13 @@ createUser(user, 'max', 30, 'dev');
 
 console.log(user);
 
+// IIFE function
+(function() {
+	console.log('IIFE');
+})();
+
+
+
+console.log(Date.now());
+
+console.log(Math.random());
